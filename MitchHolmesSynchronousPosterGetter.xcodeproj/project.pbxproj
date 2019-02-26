@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067931D322255C15009F21A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067931D222255C15009F21A4 /* Assets.xcassets */; };
 		067AD4E4221D720A009A0B25 /* MitchHolmesSynchronousPosterGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 067AD4E2221D720A009A0B25 /* MitchHolmesSynchronousPosterGetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		067AD4EB221D7237009A0B25 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067AD4EA221D7237009A0B25 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		067931D222255C15009F21A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		067AD4DF221D720A009A0B25 /* MitchHolmesSynchronousPosterGetter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MitchHolmesSynchronousPosterGetter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		067AD4E2221D720A009A0B25 /* MitchHolmesSynchronousPosterGetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MitchHolmesSynchronousPosterGetter.h; sourceTree = "<group>"; };
 		067AD4E3221D720A009A0B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				067AD4EA221D7237009A0B25 /* Service.swift */,
 				067AD4E2221D720A009A0B25 /* MitchHolmesSynchronousPosterGetter.h */,
 				067AD4E3221D720A009A0B25 /* Info.plist */,
+				067931D222255C15009F21A4 /* Assets.xcassets */,
 			);
 			path = MitchHolmesSynchronousPosterGetter;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067931D322255C15009F21A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
