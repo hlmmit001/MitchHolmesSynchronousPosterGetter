@@ -1,2 +1,0 @@
-# MitchHolmesSynchronousPosterGetter
-Cocoapods Assignment 2
