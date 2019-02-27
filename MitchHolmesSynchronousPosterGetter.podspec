@@ -11,7 +11,9 @@ spec.platform     = :ios, "10.0"
 spec.swift_version = "4.2"
 spec.source       = { :git => "https://github.com/hlmmit001/MitchHolmesSynchronousPosterGetter.git", :tag => "0.2.0" }
 spec.source_files  = "MitchHolmesSynchronousPosterGetter/**/*.{h,m,swift,mm}"
-spec.resource_bundles = { "String" => ["MitchHolmesSynchronousPosterGetter/Resources/**/*.{strings}"]}
+spec.resource_bundles = {
+  "String" => [ "MitchHolmesSynchronousPosterGetter/Resources/**/*.{strings}" ]
+}
 spec.dependency "SBJson", "~> 5.0.0"
 spec.dependency "AFNetworking", "~> 2.7.0"
 spec.dependency "SwiftLint","~> 0.30.1"
