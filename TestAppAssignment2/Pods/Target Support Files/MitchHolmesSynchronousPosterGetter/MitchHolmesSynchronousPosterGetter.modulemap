@@ -1,0 +1,6 @@
+framework module MitchHolmesSynchronousPosterGetter {
+  umbrella header "MitchHolmesSynchronousPosterGetter-umbrella.h"
+
+  export *
+  module * { export * }
+}

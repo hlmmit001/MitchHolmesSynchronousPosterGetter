@@ -14,6 +14,7 @@ spec.source_files  = "MitchHolmesSynchronousPosterGetter/**/*.{h,m,swift,mm}"
 spec.resource_bundles = {
   "String" => [ "MitchHolmesSynchronousPosterGetter/Resources/**/*.{strings}" ]
 }
+spec.framework = "Foundation"
 spec.dependency "SBJson", "~> 5.0.0"
 spec.dependency "AFNetworking", "~> 2.7.0"
 spec.dependency "SwiftLint","~> 0.30.1"
