@@ -47,8 +47,11 @@ public class TweetService {
                     tweet = try decoder.decode([Tweet].self, from: data!)
                     semaphore.signal()
                 } catch let jsonError {
+                    semaphore.signal()
                     print("Error in finding Tweet: ", jsonError)
                 }
+            } else {
+                semaphore.signal()
             }
             }.resume()
         semaphore.wait()
@@ -77,6 +80,7 @@ public class TweetService {
                     user = try decoder.decode(User.self, from: data!)
                     semaphore.signal()
                 } catch let jsonError {
+                    semaphore.signal()
                     print("Error posting user: ", jsonError)
                 }
             }
